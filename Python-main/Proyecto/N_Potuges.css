@@ -1,0 +1,54 @@
+/* Inicio configuracion inicial */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.col-1,
+.col-2,
+.col-3{
+    flex: 3;
+    background-color: blue;
+}
+
+.col-1{
+    flex: 1;
+    background-color: beige;
+}
+
+.col-2{
+    flex: 2;
+    background-color: cadetblue;
+}
+
+.row{
+    display: flex;
+}
+/* Final configuracion inicial */
+
+/* Inicio configuracion encabezado */
+.encabezado{
+    background-color: #102153;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Final configuracion encabezada */
+
+/* Inicio configuracion sidebar */
+.sidebar{
+    background-color: #f4f4f4;
+    width: 200px;
+    height: 100px;
+}
+
+.w{
+    width: 200px;
+}
+/* Final configuracion sidebar */
+
+.video{
+   justify-content: center;
+   align-items: center;
+}
